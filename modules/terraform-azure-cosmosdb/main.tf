@@ -1,7 +1,7 @@
 resource "azurerm_cosmosdb_account" "account" {
   name                = var.account_name
-  location            = var.resource_group_location
   resource_group_name = var.resource_group_name
+  location            = var.resource_group_location
   offer_type          = "Standard"
 
   consistency_policy {
