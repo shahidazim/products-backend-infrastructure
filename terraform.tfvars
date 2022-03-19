@@ -1,0 +1,6 @@
+resource_group_name                        = "myrg1"
+resource_group_location                    = "eastus"
+cosmosdb_account_name                      = "sacomosdbaccount1"
+cosmosdb_database_name                     = "products"
+cosmosdb_database_collection_name          = "clothes"
+cosmosdb_database_collection_partition_key = "/clothid"
